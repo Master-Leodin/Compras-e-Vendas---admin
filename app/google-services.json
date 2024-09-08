@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902359579539",
+    "project_id": "compras-uy---br",
+    "storage_bucket": "compras-uy---br.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902359579539:android:0738696c933281cdc74666",
+        "android_client_info": {
+          "package_name": "com.android.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO_uRhA52okYwoTCNtfsVYYXsbvnLCFeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<!-- res/layout/item_produto.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivFotoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="Foto do Produto"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvNomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvDescricaoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição do Produto"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvPrecoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço do Produto"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Botões de Editar e Deletar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Editar"/>
+
+        <Button
+            android:id="@+id/btnDeletar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Deletar"/>
+    </LinearLayout>
+</LinearLayout>
